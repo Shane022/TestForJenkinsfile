@@ -1,0 +1,5 @@
+node('MacMini-JNLP') {mm
+    stage('test') {
+        input message: '', parameters: [string(defaultValue: 'dwadawadawdawda', description: '', name: 't', trim: false)]
+    }
+}
